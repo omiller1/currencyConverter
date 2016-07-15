@@ -13,6 +13,8 @@
 		45920A521D3685E400D42F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45920A501D3685E400D42F86 /* Main.storyboard */; };
 		45920A541D3685E400D42F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45920A531D3685E400D42F86 /* Assets.xcassets */; };
 		45920A571D3685E400D42F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45920A551D3685E400D42F86 /* LaunchScreen.storyboard */; };
+		45920A601D3696B100D42F86 /* exchangeRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45920A5F1D3696B100D42F86 /* exchangeRate.m */; };
+		45920A631D3696DD00D42F86 /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 45920A621D3696DD00D42F86 /* Currency.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		45920A531D3685E400D42F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45920A561D3685E400D42F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45920A581D3685E400D42F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45920A5E1D3696B100D42F86 /* exchangeRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exchangeRate.h; sourceTree = "<group>"; };
+		45920A5F1D3696B100D42F86 /* exchangeRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = exchangeRate.m; sourceTree = "<group>"; };
+		45920A611D3696DD00D42F86 /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
+		45920A621D3696DD00D42F86 /* Currency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Currency.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				45920A4D1D3685E400D42F86 /* ViewController.h */,
 				45920A4E1D3685E400D42F86 /* ViewController.m */,
 				45920A501D3685E400D42F86 /* Main.storyboard */,
+				45920A5E1D3696B100D42F86 /* exchangeRate.h */,
+				45920A5F1D3696B100D42F86 /* exchangeRate.m */,
+				45920A611D3696DD00D42F86 /* Currency.h */,
+				45920A621D3696DD00D42F86 /* Currency.m */,
 				45920A531D3685E400D42F86 /* Assets.xcassets */,
 				45920A551D3685E400D42F86 /* LaunchScreen.storyboard */,
 				45920A581D3685E400D42F86 /* Info.plist */,
@@ -149,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45920A601D3696B100D42F86 /* exchangeRate.m in Sources */,
 				45920A4F1D3685E400D42F86 /* ViewController.m in Sources */,
 				45920A4C1D3685E400D42F86 /* AppDelegate.m in Sources */,
 				45920A491D3685E400D42F86 /* main.m in Sources */,
+				45920A631D3696DD00D42F86 /* Currency.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
